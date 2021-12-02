@@ -1,0 +1,37 @@
+header{
+background-color: #E5E5E5; 
+text-align: center;
+}
+
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c4c4c4;
+    letter-spacing: 0.2em;
+    color: #005677;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c4c4c4;
+    color: #005677;
+}
+
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 18px;
+}
+.texto-resaltado{
+    font-weight: bold;
+
+}
+footer{
+    background-color: #5f5f5f;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1em;
+}
+i{
+    width: 45px;
+    color: white
+}
