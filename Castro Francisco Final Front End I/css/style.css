@@ -237,8 +237,11 @@ margin: 10% 30%;
 
 
     }
-    hi{
+    h1{
     font-size: 58px;
+    }
+    h2{
+        font-size: 42px;
     }
     .section1estadistica{
     display: flex;
@@ -270,6 +273,44 @@ margin: 10% 30%;
     flex-direction:row;
     justify-content: flex-start;
     align-items: center;
-    gap:20%;
+    gap:5%;
 }
+.divorg{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10%;
+}
+.section3opiniones{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:5%;
+}
+.divorg2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+}
+.divorg2{
+    margin:auto;
+}
+.divorg3{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:5%;
+}
+
+
+
 }
