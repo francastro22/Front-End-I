@@ -206,13 +206,70 @@ margin: 10% 30%;
     .navbar nav ul{
         list-style-type: none;
         font-size: 13px;
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-start;
+        align-items: center;
+        gap:20%;
+        margin-right: 70%;
     
         }
     .navbar nav ul li a{
         text-decoration: none;
         color:#242E52;
     }
+    .navbar nav::after{
+    content:url("../img/ButtonGetSt.png");
+    width: 40%;
+    height:20%;
+    margin-right: 10%;
+    /*se que le falta el link pero queria probar el ::after y creo que con javascrip se podria linkear*/
+
+    }
+    header{
+    justify-content: space-around;
+    }
+    .grupoImagenes1{
+        width: 40%;
+        height: 40%;
+        margin-left: 5%;
 
 
 
     }
+    hi{
+    font-size: 58px;
+    }
+    .section1estadistica{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10%;
+    }
+    
+    p{
+    font-size: 16px;
+    }
+    .divdesktop{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: center;
+        gap:20%;
+    }
+    .buttonmain{
+        margin: 5% 0%;
+    }
+
+.section2ventajas{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20%;
+}
+}
