@@ -310,7 +310,47 @@ margin: 10% 30%;
     align-items: center;
     gap:5%;
 }
+.section4banner{
+height: 15%;
+}
 
 
+.simplify{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.buttonmain4{
+padding: 10px 40px;
+}
+footer {
+    flex-direction:row;
+}
+.logosyredes img{
+order: 2;
+margin:10% 0%;
+}
+.logosyredes{
+margin-left: 15%;
+}
+.formfooter{
+margin-right: 15%;
+}
+.listasfooter span ul a{
+    font-size: 16px;
+}
+.navbar nav ul li a:hover{
+color: rgb(249, 249, 249);
+}
+
+.listasfooter span ul li a:hover {
+color: orange;
+}
+button:hover {
+opacity: 50%;
+}
 
 }
